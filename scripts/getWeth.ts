@@ -14,4 +14,4 @@ const getWeth = async (deployer: string) => {
   const balance = (await IWeth.balanceOf(deployer)).toString()
   console.log(`balance of ${deployer} is ${ethers.utils.formatEther(balance)} weth`)
 }
-export default getWeth
+export { getWeth, AMOUNT }
