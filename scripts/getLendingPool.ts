@@ -1,4 +1,4 @@
-import { ethers, getNamedAccounts, network } from 'hardhat'
+import { ethers, network } from 'hardhat'
 import { networkConfig } from '../help-hardhat-config'
 import networkType from '../types/networkType'
 const getLendingPool = async (deployer: string) => {
